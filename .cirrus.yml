@@ -1,4 +1,4 @@
 task:
     container:
       image: ubuntu:latest
-    script: apt update -y && apt install -y git && ping www.google.com
+    script: sudo apt update -y && sudo apt install -y inetutils-ping && ping www.google.com
